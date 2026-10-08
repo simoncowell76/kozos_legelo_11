@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: #2c6e50;
+    color: white;
+    padding: 30px;
+}
+.tehenek{
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+main{
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+.oldaltartalom{
+    display: flex;
+}
+aside{
+
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+.tehenek2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+article{
+
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 750px;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.tehen{
+    width: 100%;
+    max-height: 40px;
+}
+.kartyak{
+    
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.kartya{
+    background-color: lightgrey;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.sargatext{
+    background-color: rgb(248, 202, 171);
+    height: 50px;
+    border-radius: 20px;
+
+}
