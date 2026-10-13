@@ -22,11 +22,41 @@ main{
     display: flex;
 }
 aside{
-
+    border: 1px solid black;
 }
-nav ul{
+span{
+    background-color: #54ad85;
+    border-radius: 5px;
+}
+.nav1{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+.nav1 ul{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: space-between;
+    list-style-type:none;
+    text-decoration: none;
+}
+.nav2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type:none;
+    text-decoration: none;
+}
+.nav2 li{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 3px;
+}
+.nav1 li{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 3px;
 }
 .tehenek2{
     display: flex;
